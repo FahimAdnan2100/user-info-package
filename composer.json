@@ -1,0 +1,31 @@
+{
+    "name": "fahim/info-package",
+    "description": "crud operation",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fahim\\InfoPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fahimadnan2100",
+            "email": "fahimadnan2100@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fahim\\InfoPackage\\InfoServiceProvider"
+            ],
+            "aliases": {
+                "InfoCrud": "Fahim\\InfoPackage\\Facade"
+            }
+        }
+    }
+}
