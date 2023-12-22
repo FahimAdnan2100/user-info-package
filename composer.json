@@ -13,7 +13,7 @@
             "email": "fahimadnan2100@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+   
     "require": {
         "php": ">=8.2"
     },
