@@ -15,8 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=8.2",
-        "fahimadnan2100/info-package": "dev-main"
+        "php": ">=8.2"
     },
     "extra": {
         "laravel": {
